@@ -1,3 +1,5 @@
+import numpy as np
+
 class Task:
     def __init__(self):
         self._training_data = []
