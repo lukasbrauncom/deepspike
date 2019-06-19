@@ -27,7 +27,6 @@ class IntegratorTask(Task):
     test_data(batch_size)
         iterate over test data and corresponding labels
     """
-    
     def __init__(self, input_neurons_n, length, snr=1, training_size=10000, validation_size=1000, test_size=5000):
         """Create semi-random training, validation and test data
         

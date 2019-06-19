@@ -2,7 +2,7 @@ import numpy as np
 
 class Task:
     """
-    A base class for a training task
+    A base class for training tasks
     
     ...
     
@@ -16,7 +16,6 @@ class Task:
     
     test_data(batch_size)
         iterate over test data and corresponding labels
-    
     """
     def __init__(self):  
         """Create placeholders for data"""
